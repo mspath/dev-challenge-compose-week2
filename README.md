@@ -1,4 +1,5 @@
-# Countdown Timer
+Countdown Timer
+===============
 
 ![Workflow result](https://github.com/mspath/dev-challenge-compose-week2/workflows/Check/badge.svg)
 
