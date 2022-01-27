@@ -19,9 +19,9 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.text.format.DateUtils
 import android.util.Log
+import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -51,7 +51,7 @@ import com.example.androiddevchallenge.ui.theme.MyTheme
 
 private const val TAG = "AndroidDevChallenge"
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
 
     private val viewModel: TimerViewModel by viewModels()
 
@@ -154,7 +154,7 @@ fun MyTimerContent(viewModel: TimerViewModel, modifier: Modifier = Modifier) {
     Column(modifier = Modifier.fillMaxHeight()) {
         Row(horizontalArrangement = Arrangement.SpaceEvenly, modifier = Modifier.fillMaxWidth()) {
             Text(
-                "$secondsToGoString",
+                secondsToGoString,
                 fontSize = 64.sp,
                 textAlign = TextAlign.Center,
                 color = if (secondsToGo < 10 && running) Color.Red else MaterialTheme.colors.primary,

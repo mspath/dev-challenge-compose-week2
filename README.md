@@ -1,5 +1,4 @@
-Countdown Timer
-===============
+# Countdown Timer
 
 ![Workflow result](https://github.com/mspath/dev-challenge-compose-week2/workflows/Check/badge.svg)
 
@@ -14,6 +13,20 @@ Building a timer was a hello-world level challenge from the great people from An
 ## :camera_flash: Screenshots
 
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
+
+----
+
+Environment
+
+- Kotlin 1.5.31
+- Android Studio Bumblebee 2021.1.1
+- Gradle Plugin 7.2
+
+----
+
+updated: 2022-01-27
+
+----
 
 ## License
 ```
