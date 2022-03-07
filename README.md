@@ -18,13 +18,13 @@ Building a timer was a hello-world level challenge from the great people from An
 
 Environment
 
-- Kotlin 1.5.31
+- Kotlin 1.6.10
 - Android Studio Bumblebee 2021.1.1
-- Gradle Plugin 7.2
+- Gradle Plugin 7.1.2
 
 ----
 
-updated: 2022-01-27
+updated: 2022-03-07
 
 ----
 
