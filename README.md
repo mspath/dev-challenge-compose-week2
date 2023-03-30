@@ -20,7 +20,7 @@ Environment
 
 - Kotlin 1.8.0
 - Compose BOM 2023.01.00
-- Android Studio Dolphin 2022.1.1
+- Android Studio Electric Eel 2022.1.1
 - Gradle Plugin 7.4.2
 
 ---
