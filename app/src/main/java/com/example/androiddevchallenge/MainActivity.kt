@@ -43,10 +43,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.*
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
 private const val TAG = "AndroidDevChallenge"
@@ -72,7 +69,7 @@ class TimerViewModel : ViewModel() {
     private val _secondsToGo: MutableLiveData<Int> = MutableLiveData(60)
     val secondsToGo: LiveData<Int> = _secondsToGo
 
-    val secondsToGoString = Transformations.map(secondsToGo) { seconds ->
+    val secondsToGoString = secondsToGo.map { seconds ->
         DateUtils.formatElapsedTime(seconds.toLong())
     }
 
