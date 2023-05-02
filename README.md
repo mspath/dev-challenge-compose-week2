@@ -18,10 +18,10 @@ Building a timer was a hello-world level challenge from the great people from An
 
 Environment
 
-- Kotlin 1.8.0
-- Compose BOM 2023.01.00
-- Android Studio Electric Eel 2022.1.1
-- Gradle Plugin 7.4.2
+- Kotlin 1.8.10
+- Compose BOM 2023.03.00
+- Android Studio Flamingo 2022.2.1
+- Gradle Plugin 8.0.0
 
 ---
 
@@ -29,7 +29,7 @@ Environment
 language: kotlin
 repo: dev-challenge-compose-week2
 status: archived
-updated: 2023-03-30
+updated: 2023-05-02
 ```
 
 ----
